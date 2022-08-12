@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arcade-Classic;
+    line-height: 1.5;
+    background-color: #e0e5eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper{
+    margin: 20px;
+    box-shadow: 0 0 14px -1px rgba(145, 145, 145, 0.75);
+}
+.text{
+    font-weight: 300;
+    opacity: 0.9;
+    max-width: 480px;
+    line-height: 1.6;
+}
+.wrapper h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.content-left{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('https://i.pinimg.com/originals/e6/bf/a4/e6bfa4d1695bbb2bf363427f90e143b9.gif') center/cover no-repeat;
+    min-height: 100vh;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    outline: 2px solid rgba(255, 255, 255, 0.7);
+    outline-offset: -20px;
+}
+.content-left h1{
+    font-size: 60px;
+    text-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
+    margin-bottom: 12px;
+}
+.content-right-top, .content-right-bottom{
+    display: grid;
+}
+.content-right-top .content-img{
+    background: url('https://64.media.tumblr.com/5057902e9b168e20502a0cd9419764d3/a50bac1cb1f77b30-a8/s400x600/530e39281825d4692e2821321e5701e0e6e410fb.gifv') center/cover no-repeat;
+    height: 450px;
+}
+.content-right-bottom .content-img{
+    background: url('https://64.media.tumblr.com/5057902e9b168e20502a0cd9419764d3/a50bac1cb1f77b30-a8/s400x600/530e39281825d4692e2821321e5701e0e6e410fb.gifv') center/cover no-repeat;
+    height: 400px;
+}
+.content-text{
+    /* color: #555c66; */
+    color: #326488;
+    background-color: #fff;
+    padding: 30px;
+    display: grid;
+    place-content: center;
+    place-items: start;
+}
+.content-text h2{
+    margin-bottom: 12px;
+}
+.b{
+    /* align-items: center; */
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Playfair Display,serif;
+    height: 25px;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: absolute;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 15px;
+    transform: translateY(-3px);
+  }
+  
+  .b:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .b:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+
+      .output{
+        font-family: Playfair Display,serif;
+        color:#fff;
+        position: absolute;
+    
+    }
+    .outputtxt{
+        background: #2d91dd68;
+        width: 200px;
+        height: 200px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position:relative;
+        border-radius: .5em;
+    }
+.travelInfo{
+   size: 16px 
+}
+
+@media screen and (min-width: 768px){
+    .wrapper{
+        margin: 40px;
+    }
+    .content-right-top, .content-right-bottom{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content-right-bottom .content-img{
+        order: 1;
+    }
+    .content-right-bottom .content-text{
+        order: 2;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: radial-gradient(100% 100% at 100% 0, #5adaff 0, #d6e64759 100%);
+}
+
+.drag-area{
+  border: 2px dashed rgb(33, 163, 243);
+  height: 150px;
+  width: 150px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(55px);
+}
+.drag-area.active{
+  border: 2px solid #fff;
+}
+.drag-area header{
+  font-size: 15px;
+  text-align: center;
+  color: rgb(72, 131, 232);
+}
+.drag-area span{
+  font-size: 15px;
+  font-weight: 10;
+  color: rgb(72, 131, 232);
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}

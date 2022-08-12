@@ -1,0 +1,195 @@
+body.moodboard{
+    background: url("https://u-stena.ru/upload/iblock/7f1/7f16a28da01a2d4a592c0f9b73157917.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background:absolute;
+    background-size: cover;
+    top: 10px;
+    left:100px;
+}
+
+.title{
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position:absolute;
+    transform: translateX(130%) translateY(-50%)
+}
+
+#fill1 {
+   background-image: url('https://previews.123rf.com/images/diy13/diy131804/diy13180400277/100117457-jet-ski-on-the-beach-jet-ski-water-motorcycle-the-concept-of-marine-entertainment-in-the-summer-at-t.jpg');
+   background-size: cover;
+   background-repeat: no-repeat; 
+   background-position: center;
+   position: relative;
+   height: 150px;
+   width: 150px;
+   top: 5px;
+   left: 5px;
+   cursor: pointer;
+   object-fit: contain;
+   display: block;
+}
+
+#fill2 {
+    background-image: url('https://64.media.tumblr.com/c8700881d13a10ce102fb62e54d01d34/c3c4baf0319c4335-01/s640x960/88dbdc8fb0b3a28d0c3eca7243d74346fa9e03d6.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    height: 150px;
+    width:150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    object-fit: contain;
+    display: block;
+    width: 150px;
+ }
+
+ #fill3 {
+    background-image: url('https://i.ytimg.com/vi/LAgFumSypvc/maxresdefault.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+ }
+
+ #fill4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRUH8NAlE75_Q4cQZe4WMyt41m90jlYXeus_M9u9mcNwjKU82Al7pvgd1gzAanFmUDEKU&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+ }
+
+ #fill5{
+    background-image: url('https://i.pinimg.com/originals/5c/6a/f2/5c6af25acaf1bb53ac2d62eeab99f402.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+ }
+
+ #fill6{
+    background-image: url('https://i.pinimg.com/736x/94/8f/0e/948f0ea95cdcd266f64189bd0bc48089.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+ }
+
+.empty {
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border: 3px slateblue;
+    background-color: rgba(25, 176, 241, 0.428);
+}
+
+.hold {
+    border: solid lightblue 4px;
+}
+
+.hovered {
+    background: wheat;
+    border-style: dashed;
+}
+
+.invisible {
+    display: none;
+}
+.row1{
+    margin-top: 100px;
+}
+
+.navbar{
+    text-align:center; 
+    position:relative; 
+    display:inline-block;
+    transform: translateX(25%) translateY(25%);
+    text-decoration:none;
+    color:#55ADED;
+}
+
+.crumb1 {
+    overflow: hidden;
+	margin-right: 2em;
+	display: inline;
+    font-family: ArcadeClassic;
+    font-size: 30px;
+    color:#113EDB; 
+    -webkit-text-stroke: 1px #55ADED;
+}
+.crumb2 {
+    overflow: hidden;
+	margin-right: 2em;
+	display: inline;
+	text-shadow: 0 0 3px #1F363D;
+    font-family: ArcadeClassic;
+    font-size: 30px;
+    color:#113EDB; 
+    -webkit-text-stroke: 1px #55ADED;
+}
+.crumb3 {
+    overflow: hidden;
+	margin-right: 2em;
+	display: inline;
+	text-shadow: 0 0 3px #1F363D;
+    font-family: ArcadeClassic;
+    font-size: 30px;
+    color:#113EDB; 
+    -webkit-text-stroke: 1px #55ADED;
+}
+.crumb4 {
+    overflow: hidden;
+	margin-right: 2em;
+	display: inline;
+	text-shadow: 0 0 3px #1F363D;
+    font-family: ArcadeClassic;
+    font-size: 30px;
+    color:#113EDB; 
+    -webkit-text-stroke: 1px #55ADED;
+}
+.crumb5 {
+    overflow: hidden;
+	margin: right 2px;
+    position: absolute;
+	display: inline;
+	text-shadow: 0 0 3px #1F363D;
+    font-family: ArcadeClassic;
+    font-size: 30px;
+    color:#113EDB; 
+    -webkit-text-stroke: 1px #55ADED;
+}

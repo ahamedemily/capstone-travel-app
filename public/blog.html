@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel = "stylesheet" href = "blog.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <div class = "content-left">
+            <h2></h2>
+            <h1>A TRIP TO REMEMBER</h1>
+            <p class = "text">WHERE ALL OF MY VACATION MEMORIES LIVE...</p>
+        </div>
+
+        <div class = "content-right">
+            <div class = "content-right-top">
+                <div class = "content-text">
+                    <h2>About my trip</h2>
+                    <p>
+                        <article class="regular">
+                            <div class="vacationinput">
+                                <input type="text" id="tripInput" placeholder="TRIP MEMORIES..." maxlength="6500" class="travelInfo">  
+                                <input type="button" id="btn1" value="Add" class="b" style="margin-right: 5px;">
+                             </div>
+                        <div class="outputtxt">
+                        <p class="output" id="output1"></p>
+                        </div>
+                    </article>
+                    </p>
+                </div>
+
+                <div class = "content-img">
+                </div>
+            </div>
+
+            <div class = "content-right-bottom">
+                <div class = "content-text">
+                    <h2 style="text-align:center">Unforgettable memories</h2>
+                    <div class="drag-area">
+                        <header>Drag & Drop to Upload File</header>
+                        <span>OR</span>
+                        <button>Browse File</button>
+                        <input type="file" hidden>
+                      </div>
+                </div>
+                <div class = "content-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="blog.js"></script>   
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
